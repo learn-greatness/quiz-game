@@ -4,7 +4,7 @@ def show_score(score, total):
     print("Quiz Finished!")
     print("Your score:", score, "/", total)
 
-    percentage = (score / total) * 10
+    percentage = (score / total) * 100
 
     print("Percentage:", percentage, "%")
 
